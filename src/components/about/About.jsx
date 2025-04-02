@@ -20,8 +20,7 @@ const About = () => {
             <div className="about__container">
                 {/* <img src={Image} alt="" className='about__img' /> */}
                 {/* <img  alt="" className='about__img' /> */}
-                <div></div>
-
+                {/* <div></div> */}
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">

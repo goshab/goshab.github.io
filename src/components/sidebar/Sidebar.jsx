@@ -3,9 +3,7 @@ import "./Sidebar.css";
 import React, { useState } from "react";
 
 import Logo from "../../assets/bsi_logo1t.png";
-// import Logo from "../../assets/logo.svg";
 import LightLogo from "../../assets/bsi_logo1t.png";
-// import LightLogo from "../../assets/light-logo.svg";
 
 import {
     RiHome2Line,

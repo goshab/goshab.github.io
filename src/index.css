@@ -3,7 +3,8 @@
 
 :root {
   /*=============== Colors ===============*/
-  --first-color: hsl(353, 100%, 65%);
+  /* --first-color: hsl(353, 100%, 65%); */
+  --first-color: hsl(0, 0%, 0%);
   --title-color: hsl(244, 100%, 26%);
   --text-color: hsl(244, 16%, 43%);
   --body-color: hsl(258, 60%, 98%);
@@ -32,11 +33,27 @@
 }
 
 [data-theme="dark"] {
-  --first-color: hsl(353, 100%, 65%);
-  --title-color: hsl(218, 11%, 69%);
-  --text-color: hsl(0, 0%, 100%);
-  --body-color: hsl(0, 0%, 12.5%);
-  --container-color: hsl(0, 0%, 22%);
+  /* --first-color: hsl(353, 100%, 65%); */
+  /* --title-color: hsl(218, 11%, 69%); */
+
+  /* --text-color: hsl(0, 0%, 100%); */
+  /* --body-color: hsl(246, 100%, 6%); */
+  /* --body-color: hsl(0, 0%, 12.5%); */
+  /* --container-color: hsl(246, 33%, 18%); */
+  /* --container-color: hsl(0, 0%, 22%); */
+
+  /* --first-color: hsl(45, 30%, 92%);
+  --title-color: hsl(218, 91%, 60%);
+  --text-color: hsl(172, 65%, 55%);
+  --body-color: hsl(210, 12%, 12%);
+  --body-color: hsl(231, 15%, 18%);
+  --container-color: hsl(240, 8%, 10%); */
+
+  --body-color: hsl(230, 25%, 18%);
+  --title-color: hsl(260, 70%, 65%);
+  --first-color: hsl(45, 30%, 92%);
+  --text-color: hsl(225, 15%, 70%);
+  --container-color: hsl(230, 25%, 25%);
 
   --shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
   --border-color: rgba(167, 174, 185, 0.1);
@@ -164,7 +181,8 @@ img {
   border: 1px solid transparent;
   color: #fff;
   display: inline-block;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: var(--title-color);
   font-weight: var(--font-bold);
 }
 
