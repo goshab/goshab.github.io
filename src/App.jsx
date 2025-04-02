@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
+import Contact from './components/contact/Contact';
 
 import useLocalStorage from 'use-local-storage'
 
@@ -26,11 +27,11 @@ function App() {
           <About />
           <Services />
           <Portfolio />
+          {/* <Contact theme={theme} /> */}
           {/* <Services />
           <Portfolio />
           <Testimonials />
-          <Blog />
-          <Contact theme={theme} />  */}
+          <Blog />*/}
         <center>&copy; Copyright 2024 - 2025. Designed and Developed by Belenkiy Services Inc.</center>
       </main>
     </div>

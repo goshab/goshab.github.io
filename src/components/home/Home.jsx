@@ -19,7 +19,7 @@ const Home = () => {
                 <br />
                 <br />
 
-                <a href="#contact" className="btn"> Contact Us</a>
+                {/* <a href="#contact" className="btn"> Contact Us</a> */}
 
                 <ScrollDown />
             </div>
