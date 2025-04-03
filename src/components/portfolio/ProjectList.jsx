@@ -27,6 +27,8 @@ const ProjectList = [
             "Designed and developed DataPower automation solutions to reduce manual tasks and accelerate day-to-day operational processes",
             "Migrated DataPower appliances from on-prem physical form factor to virtual (OVA, Linux or Openshift) on AWS, Azure, and IBM Cloud",
             "Designed and implementated DevOps pipelines, change management processes and integration with source control system",
+            "Engineered an automated CI/CD solution integrated with UrbanCode that securely deploys WSDL/REST services across DataPower HA environments, featuring version control and multi-environment support",
+            "Developed DataPower Utilities (DPU) – a web-based enhancement to DataPower's native WebGUI that delivers plug-and-play management of internal DataPower entities with real-time/batch alerting, extending visibility and control beyond standard DataPower WebGUI capabilities",
             // "Full spectrum of administration tasks",
             // "Full spectrum of developent tasks",
         ],
